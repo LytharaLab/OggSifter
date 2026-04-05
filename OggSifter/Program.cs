@@ -2,6 +2,8 @@ namespace OggSifter
 {
     internal static class Program
     {
+        public static Version VERSION = new Version(1, 0, 0);
+        
         [STAThread]
         static void Main()
         {

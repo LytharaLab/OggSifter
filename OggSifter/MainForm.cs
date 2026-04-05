@@ -65,7 +65,7 @@ namespace OggSifter
 
         public MainForm()
         {
-            Text = "OggSifter - Roblox音频缓存提取/筛选器 (by LytharaLab)";
+            Text = $"OggSifter - Roblox音频缓存提取/筛选器 (by LytharaLab) (v{Program.VERSION.ToString()})";
             Width = 980;
             Height = 680;
             StartPosition = FormStartPosition.CenterScreen;

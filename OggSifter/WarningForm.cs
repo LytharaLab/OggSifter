@@ -30,7 +30,7 @@ namespace OggSifter
     {
         public WarningForm()
         {
-            Text = "OggSifter - 使用说明";
+            Text = $"OggSifter - 使用说明 (v{Program.VERSION.ToString()})";
             Width = 680;
             Height = 520;
             StartPosition = FormStartPosition.CenterScreen;
